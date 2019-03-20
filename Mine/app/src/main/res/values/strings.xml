@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mine</string>
+    <string name="invite">Welcome To My Page !!</string>
+    <string name="name">User Name</string>
+    <string name="eMail">Email Address</string>
+    <string name="Password">User Password</string>
+</resources>

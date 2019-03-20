@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#000000"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+
+        android:layout_marginBottom="30dp"
+        android:textColorHint="#ffffff"
+        android:paddingLeft="16dp"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Name Here"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_marginBottom="30dp"
+        android:textColorHint="#ffffff"
+        android:paddingLeft="16dp"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:id="@+id/edtMail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Email Here"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:layout_marginBottom="30dp"
+        android:textColorHint="#ffffff"
+        android:paddingLeft="16dp"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:id="@+id/edtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="phone" />
+
+    <EditText
+        android:layout_marginBottom="30dp"
+        android:textColorHint="#ffffff"
+        android:paddingLeft="16dp"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textColor="#faf8f8"
+        android:id="@+id/edtPass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold|italic"
+        android:background="#200e3d"
+        android:textSize="50sp"
+        android:textColor="#ffffff"
+        android:id="@+id/btnOne"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Morning Project 9</string>
+    <string-array name="madaraka">
+        <item>Select User Level</item>
+        <item>Admin</item>
+        <item>Accoutant</item>
+        <item>Finance Manager</item>
+        <item>Register</item>
+        <item>Managing Director</item>
+        <item>Bursar</item>
+        <item>Store Keeper</item>
+        <item>DOS</item>
+        <item>Student</item>
+    </string-array>
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/omg3"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:textStyle="italic"
+                android:id="@+id/tvOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/invite"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="60sp" />
+
+            <EditText
+                android:id="@+id/edtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:hint="@string/name"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/edtMail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:ems="10"
+                android:hint="@string/eMail"
+                android:inputType="textEmailAddress"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/edtPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:ems="10"
+                android:hint="@string/Password"
+                android:inputType="textPassword"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:background="#000000"
+                    android:layout_marginRight="10sp"
+                    android:layout_marginTop="80dp"
+                    android:textColor="#fff"
+                    android:textSize="30sp"
+                    android:id="@+id/btnOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Sign Up" />
+
+                <Button
+                    android:background="#00689087"
+                    android:layout_marginRight="10sp"
+                    android:layout_marginTop="80dp"
+                    android:textColor="#fff"
+                    android:textSize="30sp"
+                    android:id="@+id/btnTwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Sign In" />
+
+                <Button
+                    android:layout_marginRight="10sp"
+                    android:layout_marginTop="80dp"
+                    android:textColor="#fff"
+                    android:background="#000000"
+                    android:textSize="30sp"
+                    android:id="@+id/btnThree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Submit" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
